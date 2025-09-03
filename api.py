@@ -10,8 +10,6 @@ def hex_string(num):
     if len(tmp_string) < 2:
         tmp_string = '0' + tmp_string
     return tmp_string
-
-
 def reverse(num):
     
     tmp_string = hex_string(num)
