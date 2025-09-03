@@ -12,7 +12,9 @@ def hex_string(num):
 
 
 def reverse(num):
+    
     tmp_string = hex_string(num)
+    
     return int(tmp_string[1:] + tmp_string[:1], 16)
 
 
